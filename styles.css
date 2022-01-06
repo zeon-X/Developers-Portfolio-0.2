@@ -22,13 +22,13 @@ section{
     width: 50%;
 }
 .first-section-text{
-    padding-top: 50px;
+    padding-top: 110px;
 }
 .first-section-text h1{
     color: rgb(56, 53, 53);
     font-size: 70px;
     font-family: "sans-serif";
-    padding-bottom: 0px;
+    margin: 0;
     border-left: solid red;
     padding-left: 15px;
 }
@@ -36,16 +36,16 @@ section{
     color: tomato;
     
 }
-#abs{
-    font-size: 16px;
+#p{
+    font-size: 20px;
     color: rgb(56, 53, 53);
-    padding-bottom: 15px;
+    padding-bottom: 17px;
 }
 .small-p{
-    padding-top: 15px;
+    padding-top: 17px;
     font-size: 14px;color: rgb(56, 53, 53);
 }
 .first-section div img{
     width: 75%;
-    padding-left: 140px;
+    padding-left: 120px;
 }
