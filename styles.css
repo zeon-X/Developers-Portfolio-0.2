@@ -1,39 +1,43 @@
 body{
-    padding-left: 10%;
-    padding-right: 10%;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 section{
-    padding-bottom: 60px;
+    padding-left: 8%;
+    padding-right: 8%;   
 }
 .btn{
     text-decoration: none;
     padding: 10px 40px 10px;
-    background-color: tomato;
+    background-color: rgb(250 ,90 ,90);
     color: white;
     border-radius: 5px;
 }
 
+
+
+
+
 .first-section{
     display: flex;
+    padding-bottom: 80px;
 }
 .first-section div{
     width: 50%;
 }
 .first-section-text{
-    padding-top: 110px;
+    padding-top: 100px;
 }
 .first-section-text h1{
     color: rgb(56, 53, 53);
     font-size: 70px;
     font-family: "sans-serif";
     margin: 0;
-    border-left: solid red;
+    border-left: solid rgb(250 ,90 ,90);
     padding-left: 15px;
 }
 .first-section-text h1 span{
-    color: tomato;
+    color: rgb(250,170,80);
     
 }
 #p{
@@ -46,6 +50,147 @@ section{
     font-size: 14px;color: rgb(56, 53, 53);
 }
 .first-section div img{
-    width: 75%;
+    width: 85%;
     padding-left: 120px;
+}
+
+
+
+
+
+
+
+
+
+.second-section{
+    padding-bottom: 80px;
+}
+
+.heading-div-h1{
+font-size: 45px;
+color: rgb(20,15,60);
+font-weight: 700;
+text-align: center;
+margin: 0;
+padding-bottom:25px;
+}
+.heading-div-h1 span{
+    color : rgb(250,170,80);
+}
+
+.card ul li div img{
+    width: 50%;
+} 
+.card ul li div{
+    padding: 30px;
+    
+}
+.card ul li {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0% 1%;
+    border-radius: 20px;
+}
+#problem{
+    padding-bottom: 5px;
+}
+.card ul li div h2{
+    font-size: 20px;
+}
+.card ul li div p{
+    font-size: 14px;
+}
+.color1{
+    background-color: rgb(240,250,250);
+}
+.color2{
+    background-color: rgb(250,240,240);
+}
+.color3{
+    background-color: rgb(250,240,210);
+}
+.card ul{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Third Section*/
+
+.third-section{
+    padding-bottom: 60px;
+    display: flex;
+}
+.third-section-f{
+    width: 45%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-y: 60px;
+}
+.third-section-s{
+    width: 50%;
+}
+.third-section-f img{
+    padding-left: 60px;
+    width: 75%;
+}
+.third-section-heading{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+
+}
+.third-section-s p{
+    padding-bottom:20px ;
+}
+
+
+/*Fourth Section*/
+.fourth-section{
+    display: flex;
+    padding-bottom: 80px;
+}
+.fourth-section-f{
+    width: 45%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-y: 260px;
+    background-position-x: 360px;
+    height: 450px;
+}
+.fourth-section-f img{
+    padding-left: 100px;
+    width: 75%;
+}
+
+
+footer{
+    background-color: rgb(10,15,25);
+    height: 200px;
+    text-align: center;
+}
+footer h2{
+    padding-top: 50px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    margin: 0;
+}
+footer h2 span{
+    font-size:30px ;
+    color:rgb(250 ,90 ,90) ;
+}
+footer p{
+    color: white;
 }
