@@ -92,7 +92,7 @@ padding-bottom:25px;
     border-radius: 20px;
 }
 #problem{
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 .card ul li div h2{
     font-size: 20px;
@@ -193,4 +193,38 @@ footer h2 span{
 }
 footer p{
     color: white;
+}
+
+
+
+/*fifth*/
+
+
+.card5 ul li div img{
+    width: 50%;
+    padding-left:70px;
+} 
+.card5 ul li div{
+    padding: 30px;
+    
+}
+.card5 ul li {
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0% 1%;
+    border-radius: 20px;
+}
+#problem{
+    padding-bottom: 8px;
+}
+.card5 ul li div h2{
+    font-size: 20px;
+    text-align: center;
+}
+.card5 ul li div p{
+    font-size: 14px;
+    text-align: center;
+}
+.card5 ul{
+    display: flex;
 }
