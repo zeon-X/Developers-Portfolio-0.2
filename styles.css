@@ -93,6 +93,7 @@ padding-bottom:25px;
 }
 #problem{
     width: 46%;
+    margin-bottom: 7px;
 }
 .card ul li div h2{
     font-size: 20px;
@@ -134,7 +135,7 @@ padding-bottom:25px;
 }
 .third-section-f{
     width: 45%;
-    background-image: url(images/shapes/shape-1.png);
+    background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position-y: 60px;
@@ -163,7 +164,7 @@ padding-bottom:25px;
 }
 .fourth-section-f{
     width: 45%;
-    background-image: url(images/shapes/shape-1.png);
+    background-image: url(images/shape-1.png);
     background-repeat: no-repeat;
     background-size: 30%;
     background-position-y: 260px;
